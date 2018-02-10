@@ -1,0 +1,27 @@
+{
+  "name": "integration_testing",
+  "version": "1.0.0",
+  "description": "### Setup",
+  "main": "service-worker.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "wdio-mocha-framework": "^0.5.12",
+    "webdriverio": "^4.10.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bubbit/integration_testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bubbit/integration_testing/issues"
+  },
+  "homepage": "https://github.com/Bubbit/integration_testing#readme"
+}
