@@ -16,4 +16,5 @@ before_script:
 - ./node_modules/selenium-standalone/bin/selenium-standalone install
 - ./node_modules/selenium-standalone/bin/selenium-standalone start &
 script:
+- sleep 60
 - ./node_modules/.bin/wdio wdio.conf.js 
